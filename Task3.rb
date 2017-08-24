@@ -5,7 +5,7 @@ n = 1
 sum = 0
 
 while sum + i < 100
-  sum = sum + i
+  sum += i 
   i = n
   n = [i, sum].max
   my_array.push(n)
@@ -26,3 +26,17 @@ loop do
 end
 
 puts my_array2
+
+
+puts "3rd way"
+my_array3 = [1, 1]
+i=0
+
+while my_array3[-2] + my_array3[-1] < 100
+  i = my_array2[-2] + my_array2[-1]
+  my_array3<<i
+end
+
+puts my_array2
+
+
