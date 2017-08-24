@@ -2,8 +2,8 @@
 my_array = []
 i = 10
 
-until i == 105
-  my_array.push(i)
+until i < 100
+  my_array<<i
   i+=5
 end
 
