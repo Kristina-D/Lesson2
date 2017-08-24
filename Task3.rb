@@ -37,6 +37,6 @@ while my_array3[-2] + my_array3[-1] < 100
   my_array3<<i
 end
 
-puts my_array2
+puts my_array3
 
 
