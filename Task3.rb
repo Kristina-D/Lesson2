@@ -33,7 +33,7 @@ my_array3 = [1, 1]
 i=0
 
 while my_array3[-2] + my_array3[-1] < 100
-  i = my_array2[-2] + my_array2[-1]
+  i = my_array3[-2] + my_array3[-1]
   my_array3<<i
 end
 
