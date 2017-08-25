@@ -7,4 +7,4 @@ while i <= 100
   i+=5
 end
 
-puts my_array
+puts array
